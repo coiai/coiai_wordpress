@@ -11,24 +11,19 @@
 
 ?>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'coiai-theme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'coiai-theme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'coiai-theme' ), 'coiai-theme', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer>
+		<div class="snsWrap">
+			<div class="snsBox">
+				<img src="" alt="twitter" class="snsIcon">
+			</div>
+			<div class="snsBox">
+				<img src="" alt="pawoo" class="snsIcon">
+			</div>
+			<div class="snsBox">
+				<img src="" alt="instagram" class="snsIcon">
+			</div>
+		</div>
+	</footer>
 
 <?php wp_footer(); ?>
 
